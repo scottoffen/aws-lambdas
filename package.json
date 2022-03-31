@@ -1,0 +1,23 @@
+{
+  "name": "aws-lambdas",
+  "version": "1.0.0",
+  "description": "Sample AWS Lambda Using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node harness.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottoffen/aws-lambdas.git"
+  },
+  "author": "Scott Offen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottoffen/aws-lambdas/issues"
+  },
+  "homepage": "https://github.com/scottoffen/aws-lambdas#readme",
+  "dependencies": {
+    "lambda-log": "^3.1.0"
+  }
+}
