@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/scottoffen/aws-lambdas#readme",
   "dependencies": {
-    "lambda-log": "^3.1.0"
+    "@aws-sdk/client-s3": "^3.58.0",
+    "base64-stream": "^1.0.0",
+    "lambda-log": "^3.1.0",
+    "pdfkit": "^0.13.0"
   }
 }

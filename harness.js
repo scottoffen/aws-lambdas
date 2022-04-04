@@ -9,7 +9,8 @@ const functionNames = [
 const event = {
     "env": "development",
     "ReportOptions": {
-
+        "ReportName": "SchoolReport",
+        "ReportFormat" : "pdf"
     },
     "Subscribers": [
         {
@@ -28,7 +29,7 @@ const event = {
 const context = {
     "callbackWaitsForEmptyEventLoop": true,
     "functionVersion": "$LATEST",
-    "functionName": "poc-node-generate-report",
+    "functionName": functionNames[0],
     "memoryLimitInMB": "128",
     "logGroupName": "/aws/lambda/poc-node-generate-report",
     "logStreamName": "2022/03/31/[$LATEST]6de034d9be204d79acb681fb43639e54",
